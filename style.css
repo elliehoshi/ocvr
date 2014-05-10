@@ -5,6 +5,14 @@ html, body {
   text-align: center;
 }
 
+h1 {
+  padding-top: 100px;
+}
+
+div {
+  margin-bottom: 0;
+}
+
 /*-----------------------------------------
 Nav
 -----------------------------------------*/
@@ -12,6 +20,10 @@ Nav
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.navbar-inverse {
+  background-color: rgba(0,0,0,.7) !important;
 }
 
 /*-----------------------------------------
@@ -34,8 +46,11 @@ About
 -----------------------------------------*/
 #about {
   width: 100vw;
-  height: 100vh;
-  background-color: red;
+  background-color: rgba(255,255,255,1);
+}
+
+#aboutHeader {
+  padding-top: 100px;
 }
 
 /*-----------------------------------------
@@ -43,8 +58,33 @@ Sponsor
 -----------------------------------------*/
 #sponsor {
   width: 100vw;
-  height: 100vh;
-  background-color: orange;
+  background-color: rgba(228,235,237,1);
+}
+
+#sponsorHeader {
+  padding-top: 100px;
+}
+
+#sponsorContainer {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.packages {
+  text-align: left;
+}
+
+/*-----------------------------------------
+Community
+-----------------------------------------*/
+#community {
+  width: 100vw;
+  background-color: rgba(255,255,255,1);
+}
+
+#communityContainer {
+  width: 75%;
+  margin: 0 auto;
 }
 
 /*-----------------------------------------
@@ -53,7 +93,7 @@ Press
 #press {
   width: 100vw;
   height: 100vh;
-  background-color: yellow;
+  background-color: rgba(232,232,232,1);
 }
 
 /*-----------------------------------------
@@ -62,7 +102,7 @@ Contact
 #contact {
   width: 100vw;
   height: 100vh;
-  background-color: green;
+  background-color: rgba(255,255,255,1);
 }
 
 /*-----------------------------------------
