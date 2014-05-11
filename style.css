@@ -19,6 +19,7 @@ p {
   text-align: left;
 }
 
+
 /*-----------------------------------------
 Nav
 -----------------------------------------*/
@@ -39,10 +40,14 @@ Home
 #home {
   width: 100vw;
   height: 100vh;
+}
+
+#homeBG {
   background-image: url(../img/bg_grid.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+  width: 100vw;
+  height: 100vh;
 }
 
 #title {
@@ -58,9 +63,15 @@ About
 -----------------------------------------*/
 #about {
   width: 100vw;
+  height: auto;
   background-color: rgba(255,255,255,1);
-  position: relative;
   padding-bottom: 20px;
+}
+
+#aboutBG {
+  width: 100vw;
+  height: auto;
+  background-color: rgba(255,255,255,1);
 }
 
 #aboutHeader {
@@ -79,7 +90,6 @@ Sponsor
   width: 100vw;
   background-color: rgba(228,235,237,1);
   padding-bottom: 100px;
-  position: relative;
 }
 
 #sponsorHeader {
@@ -88,6 +98,8 @@ Sponsor
 
 #sponsorContainer {
   width: 80%;
+  height: auto;
+  background-color: rgba(228,235,237,1);
   margin: 0 auto;
 }
 
@@ -100,7 +112,7 @@ Sponsor
 }
 
 .panel.panel-default {
-  height: 500px;
+  min-height: 450px;
 }
 
 /*-----------------------------------------
@@ -110,12 +122,17 @@ Community
   width: 100vw;
   background-color: rgba(255,255,255,1);
   padding-bottom: 100px;
-  position: relative;
 }
 
 #communityContainer {
-  width: 75%;
+  width: 50%;
   margin: 0 auto;
+}
+
+#reachContainer {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
 }
 
 /*-----------------------------------------
@@ -126,7 +143,6 @@ Press
   height: 100vh;
   background-color: rgba(232,232,232,1);
   padding-bottom: 100px;
-  position: relative;
 }
 
 /*-----------------------------------------
@@ -136,7 +152,6 @@ Contact
   width: 100vw;
   height: 100vh;
   background-color: rgba(255,255,255,1);
-  position: relative;
 }
 
 #contactText {
