@@ -3,12 +3,18 @@ Body
 -----------------------------------------*/
 html, body {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
   padding-top: 100px;
   margin-top: 0px !important;
   color: rgb(109,109,109) !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+h2, h3, li {
+  font-family: 'Open Sans', sans-serif !important;
 }
 
 div {
@@ -17,6 +23,7 @@ div {
 
 p {
   text-align: left;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -40,6 +47,7 @@ Home
 #home {
   width: 100vw;
   height: 100vh;
+  position: relative;
 }
 
 #homeBG {
@@ -54,7 +62,7 @@ Home
   padding-top: 20%;
 }
 
-h2.glyphicon.glyphicon-chevron-down {
+h4.glyphicon.glyphicon-chevron-down {
   color: rgb(109,109,109);
 }
 
@@ -66,16 +74,13 @@ About
   height: auto;
   background-color: rgba(255,255,255,1);
   padding-bottom: 20px;
+  padding-top: 100px;
 }
 
 #aboutBG {
   width: 100vw;
   height: auto;
   background-color: rgba(255,255,255,1);
-}
-
-#aboutHeader {
-  padding-top: 100px;
 }
 
 #aboutContainer {
@@ -90,6 +95,7 @@ Sponsor
   width: 100vw;
   background-color: rgba(228,235,237,1);
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 #sponsorHeader {
@@ -103,10 +109,6 @@ Sponsor
   margin: 0 auto;
 }
 
-.sponsorBenefits {
-  text-align: left;
-}
-
 .packages {
   text-align: left;
 }
@@ -115,22 +117,36 @@ Sponsor
   min-height: 450px;
 }
 
+.sponsorImg {
+  height: 200px;
+  width: auto;
+}
+
 /*-----------------------------------------
 Community
 -----------------------------------------*/
 #community {
   width: 100vw;
-  background-color: rgba(255,255,255,1);
+  background-image: url(../img/OCVR_genphoto1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  background-image: url(../img/overlay-pattern.png);
+  background-repeat: repeat;
   padding-bottom: 100px;
 }
 
 #communityContainer {
   width: 50%;
   margin: 0 auto;
+  background-color: rgba(255,255,255,0.6);
+  padding: 100px;
 }
 
 #reachContainer {
-  width: 50%;
+  width: 75%;
   margin: 0 auto;
   text-align: left;
 }
@@ -140,7 +156,7 @@ Press
 -----------------------------------------*/
 #press {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background-color: rgba(232,232,232,1);
   padding-bottom: 100px;
 }
