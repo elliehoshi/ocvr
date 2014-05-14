@@ -43,6 +43,7 @@ Home
   width: 100vw;
   height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
 #homeBG {
@@ -58,9 +59,10 @@ h4.glyphicon.glyphicon-chevron-down {
 }
 
 #homepageLogo img {
-  width: 300px;
+  width: 80%;
   height: auto;
   margin: 0 auto;
+  padding-top: 100px;
 }
 
 /*-----------------------------------------
@@ -165,7 +167,13 @@ Sponsor
 }
 
 .sponsorBtn {
-  margin-top: 200px;
+  margin-top: 100px;
+  width: 300px;
+  height: 100px;
+  background-color: #f9a768 !important;
+  border: none !important;
+  border-bottom: 5px solid #f16639 !important;
+  font-size: 18pt !important;
 }
 
 /*-----------------------------------------
