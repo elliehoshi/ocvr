@@ -53,12 +53,14 @@ Home
   height: 100vh;
 }
 
-#title {
-  padding-top: 20%;
-}
-
 h4.glyphicon.glyphicon-chevron-down {
   color: rgb(109,109,109);
+}
+
+#homepageLogo img {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
 }
 
 /*-----------------------------------------
@@ -155,6 +157,15 @@ Sponsor
 .sponsorImg {
   height: 200px;
   width: auto;
+}
+
+.sponsorIcons {
+  height: 150px;
+  width: auto;
+}
+
+.sponsorBtn {
+  margin-top: 200px;
 }
 
 /*-----------------------------------------
