@@ -43,6 +43,7 @@ Home
   width: 100vw;
   height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
 #homeBG {
@@ -61,7 +62,7 @@ h4.glyphicon.glyphicon-chevron-down {
   width: 80%;
   height: auto;
   margin: 0 auto;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 /*-----------------------------------------
