@@ -23,6 +23,8 @@ $(document).ready(function() {
           le      = conts.length,
           ifr     = null;
 
+      console.log(elm);
+
       for(var i = 0; i<le; i++){
         if(conts[i].nodeType == 8) ifr = conts[i].textContent;
       }
