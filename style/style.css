@@ -50,14 +50,8 @@ Home
   height: 100vh;
   position: relative;
   overflow: hidden;
-}
-
-#homeBG {
-  background-image: url(../img/bg_grid.jpeg);
+  background: url(../img/bg_grid.jpeg) no-repeat fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
 }
 
 h4.glyphicon.glyphicon-chevron-down {
@@ -77,15 +71,10 @@ About
 #about {
   width: 100vw;
   height: auto;
-  background-color: rgba(255,255,255,1);
+  position: relative;
+  background: rgba(255,255,255,1) no-repeat fixed;
   padding-bottom: 20px;
   padding-top: 100px;
-}
-
-#aboutBG {
-  width: 100vw;
-  height: auto;
-  background-color: rgba(255,255,255,1);
 }
 
 .video { 
@@ -138,7 +127,8 @@ Sponsor
 -----------------------------------------*/
 #sponsor {
   width: 100vw;
-  background-color: rgba(228,235,237,1);
+  position: relative;
+  background: rgba(228,235,237,1) no-repeat fixed;
   padding-bottom: 100px;
   padding-top: 100px;
 }
@@ -187,13 +177,15 @@ Community
 -----------------------------------------*/
 #community {
   width: 100vw;
-  background-image: url(../img/OCVR_genphoto1.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 100vh;
   position: relative;
+  background: url(../img/OCVR_genphoto1.jpeg) no-repeat fixed;
+  background-size: cover;
 }
 
 .overlay {
+  width: 100vw;
+  height: 100vh;
   background-image: url(../img/overlay-pattern.png);
   background-repeat: repeat;
   padding-bottom: 100px;
@@ -201,10 +193,13 @@ Community
 }
 
 #communityContainer {
-  width: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 75%;
   margin: 0 auto;
   background-color: rgba(255,255,255,0.6);
-  padding: 100px;
+  padding: 10%;
 }
 
 #reachContainer {
@@ -231,6 +226,15 @@ Press
 .pressLogos {
   width: 50%;
   height: auto;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.pressLogos:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 /*-----------------------------------------
