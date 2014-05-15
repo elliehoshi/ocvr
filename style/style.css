@@ -188,8 +188,8 @@ Community
   height: 100vh;
   background-image: url(../img/overlay-pattern.png);
   background-repeat: repeat;
-  padding-bottom: 100px;
-  padding-top: 100px;
+  padding-bottom: 10%;
+  padding-top: 10%;
 }
 
 #communityContainer {
