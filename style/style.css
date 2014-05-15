@@ -52,17 +52,19 @@ Home
   overflow: hidden;
   background: url(../img/bg_grid.jpeg) no-repeat fixed;
   background-size: cover;
+  padding-top: 100px;
 }
 
 h4.glyphicon.glyphicon-chevron-down {
   color: rgb(109,109,109);
+  font-size: 5em;
+  cursor: pointer;
 }
 
 #homepageLogo img {
   width: 60%;
   height: auto;
   margin: 0 auto;
-  padding-top: 100px;
 }
 
 /*-----------------------------------------
@@ -74,7 +76,6 @@ About
   position: relative;
   background: rgba(255,255,255,1) no-repeat fixed;
   padding-bottom: 20px;
-  padding-top: 100px;
 }
 
 .video { 
@@ -178,6 +179,7 @@ Community
 #community {
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
   position: relative;
   background: url(../img/OCVR_genphoto1.jpeg) no-repeat fixed;
   background-size: cover;
@@ -199,7 +201,7 @@ Community
   width: 75%;
   margin: 0 auto;
   background-color: rgba(255,255,255,0.6);
-  padding: 10%;
+  padding: 50px;
 }
 
 #reachContainer {
