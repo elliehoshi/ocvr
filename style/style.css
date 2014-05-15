@@ -223,6 +223,16 @@ Press
   padding-bottom: 100px;
 }
 
+#pressContainer {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.pressLogos {
+  width: 50%;
+  height: auto;
+}
+
 /*-----------------------------------------
 Contact
 -----------------------------------------*/
