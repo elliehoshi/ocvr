@@ -28,13 +28,13 @@ Nav
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 21;
+  z-index: 30;
 }
 
-.navbar-inverse {
+/*.navbar-inverse {
   background-color: rgba(0,0,0,.85) !important;
   border: none !important;
-}
+}*/
 
 .navbar-brand img {
   height: 50px;
@@ -103,7 +103,7 @@ About
   left: 41%;
   width: 17%;
   height: 245px;
-  z-index: 30;
+  z-index: 25;
   /*cursor: pointer;*/
 } 
 .video iframe { 

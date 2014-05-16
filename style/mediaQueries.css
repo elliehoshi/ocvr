@@ -1,0 +1,65 @@
+/*-----------------------------------------
+Breakpoint 1
+-----------------------------------------*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .navbar-inverse {
+    background-color: red !important;
+    border: none !important;
+  }
+
+}
+
+/*-----------------------------------------
+Breakpoint 2
+-----------------------------------------*/
+@media only screen and (min-device-width : 320px) and (max-width : 480px) {
+  .navbar-inverse {
+    background-color: orange !important;
+    border: none !important;
+  }
+
+}
+
+/*-----------------------------------------
+Breakpoint 3
+-----------------------------------------*/
+@media only screen and (min-width : 481px) and (max-width: 767px) {
+  .navbar-inverse {
+    background-color: yellow !important;
+    border: none !important;
+  }
+
+}
+
+/*-----------------------------------------
+Breakpoint 4
+-----------------------------------------*/
+@media only screen and (min-width : 768px) and (max-width: 1024px) {
+  .navbar-inverse {
+    background-color: green !important;
+    border: none !important;
+  }
+
+}
+
+/*-----------------------------------------
+Breakpoint 5
+-----------------------------------------*/
+@media only screen and (min-width : 1025px) and (max-width: 1223px) {
+  .navbar-inverse {
+    background-color: blue !important;
+    border: none !important;
+  }
+
+}
+
+/*-----------------------------------------
+Desktops and laptops
+-----------------------------------------*/
+@media only screen and (min-width : 1224px) {
+  .navbar-inverse {
+    background-color: magenta !important;
+    border: none !important;
+  }
+
+}
