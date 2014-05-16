@@ -31,10 +31,10 @@ Nav
   z-index: 30;
 }
 
-/*.navbar-inverse {
+.navbar-inverse {
   background-color: rgba(0,0,0,.85) !important;
   border: none !important;
-}*/
+}
 
 .navbar-brand img {
   height: 50px;
@@ -153,8 +153,20 @@ Sponsor
   text-align: left;
 }
 
+.panel {
+  background-color: rgb(60, 69, 68);
+  border: none;
+  color: rgb(160, 169, 168);
+}
+
 .panel.panel-default {
   min-height: 450px;
+}
+
+.panel-default>.panel-heading {
+  background-color: rgb(30, 34, 34);
+  color: rgb(160, 169, 168);
+  border: none;
 }
 
 .sponsorLevelIcon {
