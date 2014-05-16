@@ -12,7 +12,7 @@ $(document).ready(function() {
   });
 
   $("#down_carot").on('click', function(){
-    $("body, html").animate({ scrollTop: 800 });
+    $("body, html").animate({ scrollTop: 700 });
   });
 
 
