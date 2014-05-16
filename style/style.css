@@ -42,6 +42,10 @@ Nav
   padding-bottom: 20px !important;
 }
 
+.glyphicon.glyphicon.glyphicon-align-justify {
+  color: white;
+}
+
 /*-----------------------------------------
 Home
 -----------------------------------------*/
@@ -151,6 +155,11 @@ Sponsor
 
 .panel.panel-default {
   min-height: 450px;
+}
+
+.sponsorLevelIcon {
+  width: 75px;
+  height: auto;
 }
 
 .sponsorImg {
