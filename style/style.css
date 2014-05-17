@@ -79,7 +79,7 @@ About
   height: auto;
   position: relative;
   background: rgba(255,255,255,1) no-repeat fixed;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
 }
 
 .video { 
@@ -125,6 +125,8 @@ About
 #aboutContainer {
   width: 50%;
   margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 45px;
 }
 
 /*-----------------------------------------
@@ -135,7 +137,7 @@ Sponsor
   position: relative;
   background: rgba(228,235,237,1) no-repeat fixed;
   padding-bottom: 100px;
-  padding-top: 100px;
+  /*padding-top: 100px;*/
 }
 
 #sponsorHeader {
@@ -247,7 +249,8 @@ Press
 }
 
 .pressLogos {
-  width: 50%;
+  padding-top: 40px;
+  width: 70%;
   height: auto;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
