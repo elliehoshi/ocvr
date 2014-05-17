@@ -70,23 +70,23 @@
   <!-- Sponsor -->
   <section id="sponsor" data-type="background" data-speed="10">
     <h1>Why OCVR Exists</h1>
+    <div class="row" id="meetupImgsRow">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <img src="img/ocvrmeetup1.jpg" class="meetupImg">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <img src="img/ocvrmeetup5.jpg" class="meetupImg">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <img src="img/ocvrmeetup3.jpg" class="meetupImg">
+        </div>
+      </div>
     <div id="aboutContainer">
         <p>The VR community has no place to learn, grow and build in Orange County.</p> 
           <br>
         <p>Orange County VR's goal is to be the central hub for VR development. A place to develop VR technology in quick hacker weekends.</p>
       </div>
     <article id="sponsorContainer">
-    
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-          <img src="img/ocvrmeetup1.jpg" class="sponsorImg">
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-          <img src="img/ocvrmeetup5.jpg" class="sponsorImg">
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-          <img src="img/ocvrmeetup3.jpg" class="sponsorImg">
-        </div>
 
       <h1 id="sponsorHeader">Why Sponsor Us?</h1>
 
@@ -221,28 +221,47 @@
     <h1>Press</h1>
     <article class="row" id="pressContainer">
       <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-        <img src="img/pressLogos/OrangeCountyRegister.svg" class="pressLogos">
+        <a href="http://bit.ly/1j0jLNv"><img src="img/pressLogos/OrangeCountyRegister.svg" class="pressLogos"></a>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-        <img src="img/pressLogos/podcasticon.svg" class="pressLogos">
+        <a href="http://bit.ly/1g6otJO"><img src="img/pressLogos/podcasticon.svg" class="pressLogos"></a>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-        <img src="img/pressLogos/roadToVR.svg" class="pressLogos">
+        <a href="http://bit.ly/1shOJs9"><img src="img/pressLogos/roadToVR.svg" class="pressLogos"></a>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-        <img src="img/pressLogos/reddit.svg" class="pressLogos">
+        <a href="http://bit.ly/1ijzawY"><img src="img/pressLogos/reddit.svg" class="pressLogos"></a>
       </div>
     </article>
   </section>
 
   <!-- Contact -->
   <div id="contact">
-    <h1>Contact Us</h1>
+
+  <img id="contactPhoto" src="img/OCVRPeopleSpace.jpg">
+  
+  <h1>Contact Us</h1>
+
     <p id="contactText">Developers and Designers are interested but fragmented.<br>
     Orange County VR goal is to be the central hub for VR development. A place to develop, learn, grow and build in Orange County.<br> 
     Help us build the virtual world of tomorrow… </p>
 
-    <img id="contactPhoto" src="img/OCVRPeopleSpace.jpg">
+    <form role="form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="name" class="form-control" id="name" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="password" class="form-control" id="phoneNumber" placeholder="Password">
+      </div>
+
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
 
   </div>
 

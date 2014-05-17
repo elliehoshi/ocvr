@@ -156,6 +156,17 @@ About
 /*-----------------------------------------
 Sponsor
 -----------------------------------------*/
+#meetupImgsRow {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.meetupImg {
+  height: 300px;
+  width: auto;
+  border-radius: 50%;
+}
+
 #sponsor {
   width: 100vw;
   position: relative;
@@ -315,7 +326,17 @@ Contact
   width: 800px;
   height: auto;
   margin: 0 auto;
+  margin-top: 50px;
+}
+
+form {
+  width: 65%;
+  margin: 0 auto;
   margin-bottom: 50px;
+}
+
+label {
+  text-align: left;
 }
 
 /*-----------------------------------------
@@ -330,4 +351,5 @@ footer {
 footer p {
   margin-bottom: 0px;
   text-align: center;
+  font-size: 10pt;
 }
