@@ -16,6 +16,16 @@ h1 {
   padding-top: 100px;
   margin-top: 0px !important;
   color: rgb(109,109,109) !important;
+  font-weight: 600;
+}
+
+h2 {
+  color: rgb(242, 103, 57);
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 600;
 }
 
 div {
@@ -28,7 +38,7 @@ p {
 }
 
 li {
-  font-size: 16pt;
+  font-size: 14pt;
 }
 
 /*-----------------------------------------
@@ -54,6 +64,10 @@ Nav
 
 .glyphicon.glyphicon.glyphicon-align-justify {
   color: white;
+}
+
+.navbar-inverse .navbar-nav>li {
+  font-size: 10pt;
 }
 
 /*-----------------------------------------
@@ -286,19 +300,22 @@ Contact
 -----------------------------------------*/
 #contact {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background-color: rgba(255,255,255,1);
 }
 
 #contactText {
   text-align: center;
+  width: 50%;
+  margin: 0 auto;
   margin-bottom: 50px;
 }
 
 #contactPhoto {
-  width: 80vw;
-  height: 40vh;
+  width: 800px;
+  height: auto;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 /*-----------------------------------------
