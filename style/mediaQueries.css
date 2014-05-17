@@ -53,8 +53,6 @@ Breakpoint 2
   right: 0;
   width: 85%;
   margin: 0 auto;
-  background-color: rgba(255,255,255,0.6);
-  padding: 15px;
   }
 
 }
@@ -62,18 +60,40 @@ Breakpoint 2
 /*-----------------------------------------
 Breakpoint 3
 -----------------------------------------*/
-@media only screen and (min-width : 481px) and (max-width: 767px) {
+@media only screen and (min-width : 481px) and (max-width: 991px) {
 /* Activate for Testing ----------- */  
 /*  .navbar-inverse {
     background-color: yellow !important;
   }*/
+
+/* Community Section ----------- */
+  #community {
+  width: 100vw;
+  height: 900px;
+  overflow: hidden;
+  position: relative;
+  background: url(../img/OCVR_genphoto1.jpeg) no-repeat fixed;
+  background-size: cover;
+  }
+
+  .overlay {
+  width: 100vw;
+  height: 900px;
+  background-image: url(../img/overlay-pattern.png);
+  background-repeat: repeat;
+  }
+
+  /* Sponsor Section ----------- */
+  .panel.panel-default {
+  min-height: 1px;
+  }
 
 }
 
 /*-----------------------------------------
 Breakpoint 4
 -----------------------------------------*/
-@media only screen and (min-width : 768px) and (max-width: 1024px) {
+@media only screen and (min-width : 992px) and (max-width: 1024px) {
 /* Activate for Testing ----------- */
 /*  .navbar-inverse {
     background-color: green !important;
@@ -83,6 +103,24 @@ Breakpoint 4
   .panel.panel-default {
   min-height: 1px;
   }
+
+  #community {
+  width: 100vw;
+  height: 900px;
+  overflow: hidden;
+  position: relative;
+  background: url(../img/OCVR_genphoto1.jpeg) no-repeat fixed;
+  background-size: cover;
+  }
+
+  .overlay {
+  width: 100vw;
+  height: 900px;
+  background-image: url(../img/overlay-pattern.png);
+  background-repeat: repeat;
+  padding-top: 10%;
+  }
+
 }
 
 /*-----------------------------------------
@@ -95,8 +133,11 @@ Breakpoint 5
   }*/
 
 /* Sponsor Section ----------- */
+  #sponsorContainer {
+    width: 90%;
+  }
   .panel.panel-default {
-  min-height: 600px;
+  min-height: 850px;
   }
 
 }

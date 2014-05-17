@@ -18,8 +18,12 @@ div {
 
 p {
   text-align: left;
+  font-size: 16pt;
 }
 
+li {
+  font-size: 16pt;
+}
 
 /*-----------------------------------------
 Nav
@@ -162,7 +166,7 @@ Sponsor
 }
 
 .panel.panel-default {
-  min-height: 450px;
+  min-height: 575px;
 }
 
 .panel-default>.panel-heading {
@@ -223,8 +227,8 @@ Community
   right: 0;
   width: 75%;
   margin: 0 auto;
-  background-color: rgba(255,255,255,0.6);
   padding: 50px;
+  color: white;
 }
 
 #reachContainer {
