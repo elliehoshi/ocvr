@@ -156,6 +156,17 @@ About
 /*-----------------------------------------
 Sponsor
 -----------------------------------------*/
+#meetupImgsRow {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.meetupImg {
+  height: 300px;
+  width: auto;
+  border-radius: 50%;
+}
+
 #sponsor {
   width: 100vw;
   position: relative;
@@ -266,6 +277,15 @@ Community
 }
 
 /*-----------------------------------------
+Stats
+-----------------------------------------*/
+#stats {
+  background-color: white;
+  padding-top: 100px;
+}
+
+
+/*-----------------------------------------
 Press
 -----------------------------------------*/
 #press {
@@ -304,18 +324,40 @@ Contact
   background-color: rgba(255,255,255,1);
 }
 
-#contactText {
-  text-align: center;
+#contactHeader {
+  padding-top: 50px;
+}
+
+.contactText {
+  text-align: justify;
   width: 50%;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 #contactPhoto {
   width: 800px;
   height: auto;
   margin: 0 auto;
+  margin-top: 50px;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
   margin-bottom: 50px;
+}
+
+label {
+  text-align: left;
+}
+
+.btn.btn-default.contactBtn {
+  background-color: #f9a768 !important;
+}
+
+.btn.btn-default.contactBtn:hover {
+  background-color: #fbc98a !important;
 }
 
 /*-----------------------------------------
@@ -330,4 +372,5 @@ footer {
 footer p {
   margin-bottom: 0px;
   text-align: center;
+  font-size: 10pt;
 }
