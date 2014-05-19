@@ -256,8 +256,8 @@ Community
   height: 100vh;
   background-image: url(../img/overlay-pattern.png);
   background-repeat: repeat;
-  padding-bottom: 10%;
-  padding-top: 10%;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 #communityContainer {
@@ -266,8 +266,15 @@ Community
   right: 0;
   width: 75%;
   margin: 0 auto;
-  padding: 50px;
+  padding-bottom: 50px;
   color: white;
+}
+
+#communityContainer h1{
+  color: rgb(242, 103, 57) !important; 
+  padding-top: 0;
+  padding-bottom: 50px;
+  font-weight: 600;
 }
 
 #reachContainer {
@@ -279,11 +286,14 @@ Community
 /*-----------------------------------------
 Stats
 -----------------------------------------*/
-#stats {
+#stats h1{
   background-color: white;
-  padding-top: 100px;
+  padding-bottom: 40px;
 }
 
+#stats {
+  padding-bottom: 40px;
+}
 
 /*-----------------------------------------
 Press
