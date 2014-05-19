@@ -15,6 +15,10 @@ $(document).ready(function() {
     $("body, html").animate({ scrollTop: 700 });
   });
 
+  $("#sponsorBtn").on('click', function(){
+    $("body, html").animate({ scrollTop: $(document).height() }, "slow");
+  });
+
 
   var videos  = $(".video");
   videos.on("click", function(){
