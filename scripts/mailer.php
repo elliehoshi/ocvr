@@ -16,10 +16,12 @@
   $header.= 'X-Mailer: PHP/' . phpversion();
   $header.= "Reply-To: " . $email . "\r\n";
 
+  //function that sends the mail
+  //much have a to, subject, message, and a header with From in it (check your host for the right formatting on the header)
+  //the from in the header must also be an email address on the server
   mail($to, $subject, $message, $header);
-  // mail($to, $subject, $message, "From: Info <info@smogfightingpaint.com>");
+  //redirect page
   header( "Location: http://smogfightingpaint.com/kendrick/sponsors/index.html" );
-  // die('here');
   exit();
 
 
