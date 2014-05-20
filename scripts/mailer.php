@@ -9,7 +9,7 @@
   $subject = "Sponsor Request from " . $name ;
   $message = "Sponsor Message: \r" . $body . "\rPhone Number: " . $phone;
   $header = "To: Meesh <michel@orangecountyvr.com>, Dylan <dylan@orangecountyvr.com>\r\n";
-  $header.= "From: SponsorPage <info@smogfightingpaint.com>\r\n"; 
+  $header.= "From: SponsorPage <info@ocvr.org>\r\n"; 
   $header.= "MIME-Version: 1.0\r\n"; 
   $header.= "Content-Type: text/plain; charset=utf-8\r\n"; 
   $header.= "X-Priority: 1\r\n"; 
@@ -21,7 +21,7 @@
   //the from in the header must also be an email address on the server
   mail($to, $subject, $message, $header);
   //redirect page
-  header( "Location: http://smogfightingpaint.com/kendrick/sponsors/index.html" );
+  header( "Location: http://www.ocvr.org/sponsor.html" );
   exit();
 
 
